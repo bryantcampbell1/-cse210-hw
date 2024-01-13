@@ -41,14 +41,13 @@ class Program
 
         else if (percent >= 50)
         {letter = "F";}
-    }
 
-    Console.WriteLine($"Your grade is: {letter}");
+    Console.WriteLine($"Your grade is: {letter}";)
 
     if (percent >= 70)
-    {Console.WriteLine("You passed!")};
+    {Console.WriteLine("You passed!");}
 
     else 
-    {Console.WriteLine ("Better luck next time!")};
-
+    {Console.WriteLine ("Better luck next time!");}
+    }
 }
